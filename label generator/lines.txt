@@ -1,0 +1,5 @@
+segmoid func
+sine rule
+cosine rule
+max int
+less int
