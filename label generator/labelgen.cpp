@@ -18,9 +18,12 @@ vector<string> FileLabelGenerator::getLines(){
     return lines;
 }
 
+static int c;
 string FileLabelGenerator::nextLabel(){
     getLines();
     string s=lbl_name+to_string(i);
     i++;
-    return s+" "+lines[i-1];
+    string ret=s+" "+lines[c];
+    c++;
+    return ret;
 }
