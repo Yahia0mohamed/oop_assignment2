@@ -1,0 +1,75 @@
+#include "bankingapplication.h"
+#include "client.h"
+void BankingApplication::display(){
+    // string n,p,a;
+    // cout<<"----------------------------------------"<<endl;
+    // cout<<"      "<<"welcome to our banking app"<<endl;
+    // cout<<"----------------------------------------"<<endl;
+    // cout<<"please enter ur name:";
+    // getline(cin,n);
+    // cout<<"please enter ur phone number:";
+    // cin>>p;
+    // cin.ignore();
+    // cout<<"please enter ur address:";
+    // getline(cin,a);
+    // client user(n,p,a);
+    cout<<"Welcome to FCAI Banking Application \n1. Create a New Account \n2. List Clients and Accounts \n3. Withdraw Money\n4. Deposit Money "<<endl;
+    string choice;
+    cin>>choice;
+    while (choice != "1" && choice != "2" && choice != "3" &&choice != "4")
+    {
+        cout<<"Wrong choice \n1. Create a New Account \n2. List Clients and Accounts \n3. Withdraw Money\n4. Deposit Money "<<endl;
+        cin>>choice;
+    }
+    if (choice =="1")
+    {
+        string name , address , phone;
+        cin.ignore();
+        cout<<"Please Enter Client Name =========> ";
+        getline(cin , name);
+        cout<<"Please Enter Client Address =======>";
+        getline(cin , address);
+        cout<<"Please Enter Client Phone =======>";
+        cin>>phone;
+        Client user1(name,phone,address);
+        user=&user1;
+        cout<<"What Type of Account Do You Like?"<<endl;
+        string choice2;
+        cout<<"(1) Basic (2) Saving - Type 1 or 2 =========>"<<endl;
+        cin>>choice2;
+        while(choice2!="1" && choice2!="2"){
+            cout<<"Wrong choice , (1) Basic (2) Saving - Type 1 or 2 =========>";
+            cin>>choice2;
+        }
+        cout<<"Please Enter the Starting Balance =========>";
+        long balance;
+        cin>>balance;
+        BankAccount acc1,*scc;
+        acc=&acc1;
+        if (choice2 =="1")
+        {
+            acc->deposit(balance);
+            cout<<acc->get_balance();
+        }
+        else{
+            SavingsBankAccount sb;
+            scc = &sb;
+            scc->deposit(balance);
+            cout<<sec->balance<<endl;
+        }
+        Client(name , phone , address);
+    }
+    else if (choice =="2")
+    {
+        /* code */
+    }
+    else if (choice =="3")
+    {
+        /* code */
+    }
+    else if (choice =="4")
+    {
+        /* code */
+    }
+
+}
