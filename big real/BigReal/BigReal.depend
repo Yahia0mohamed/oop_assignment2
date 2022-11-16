@@ -1,0 +1,83 @@
+# depslib dependency file v1.0
+1668356035 source:c:\users\aseme\onedrive\desktop\opp as2\bigreal\bigreal.cpp
+	"bigreal.h"
+	<iostream>
+	<string>
+
+1668595970 
+
+1668322232 c:\users\aseme\onedrive\desktop\opp as2\bigreal\bigreal.h
+	<iostream>
+	"../BigDecimalIntClass.h"
+
+1668595204 imalIntClass.h"
+
+1668356249 c:\users\aseme\onedrive\desktop\opp as2\bigdecimalintclass.cpp
+	"BigDecimalIntClass.h"
+
+1668406181 lIntClass.h"
+
+1667072316 c:\users\aseme\onedrive\desktop\opp as2\bigdecimalintclass.h
+	<iostream>
+	<deque>
+	<regex>
+
+1667072316 
+
+1668324001 source:c:\users\aseme\onedrive\desktop\opp as2\bigreal\main.cpp
+	<iostream>
+	<string>
+	"bigreal.h"
+	"../BigDecimalIntClass.cpp"
+	"../BigDecimalIntClass.h"
+
+1668595970 source:f:\opp as2\bigreal\bigreal.cpp
+	"bigreal.h"
+	<iostream>
+	<string>
+	<cstdlib>
+
+1668595204 f:\opp as2\bigreal\bigreal.h
+	<iostream>
+	"../BigDecimalIntClass.h"
+
+1667072316 f:\opp as2\bigdecimalintclass.h
+	<iostream>
+	<deque>
+	<regex>
+
+1668563394 source:f:\opp as2\bigreal\main.cpp
+	<iostream>
+	<string>
+	"bigreal.h"
+	"../BigDecimalIntClass.cpp"
+
+1668563394 imalIntClass.cpp"
+
+1668406181 f:\opp as2\bigdecimalintclass.cpp
+	"BigDecimalIntClass.h"
+
+1668595970 source:/home/yahia/Documents/oop assignments/assignment 2/big real_final/opp as2/BigReal/bigreal.cpp
+	"bigreal.h"
+	<iostream>
+	<string>
+	<cstdlib>
+
+1668595204 /home/yahia/Documents/oop assignments/assignment 2/big real_final/opp as2/BigReal/bigreal.h
+	<iostream>
+	"../BigDecimalIntClass.h"
+
+1667072316 /home/yahia/Documents/oop assignments/assignment 2/big real_final/opp as2/BigDecimalIntClass.h
+	<iostream>
+	<deque>
+	<regex>
+
+1668563394 source:/home/yahia/Documents/oop assignments/assignment 2/big real_final/opp as2/BigReal/main.cpp
+	<iostream>
+	<string>
+	"bigreal.h"
+	"../BigDecimalIntClass.cpp"
+
+1668406180 /home/yahia/Documents/oop assignments/assignment 2/big real_final/opp as2/BigDecimalIntClass.cpp
+	"BigDecimalIntClass.h"
+
